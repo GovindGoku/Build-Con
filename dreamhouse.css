@@ -88,8 +88,10 @@ body {
 	font-size: 50px;
 }
 .team .card-body i {
+	cursor: pointer;
 	font-size: 20px;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
 		bottom: 370px;
@@ -128,5 +130,9 @@ body {
 	}
 	.card {
 		margin-bottom: 30px;
+	}
+
+	.contact-item {
+		margin-bottom: 10px;
 	}
 }
